@@ -1,0 +1,11 @@
+{
+  "name": "pwaframework",
+  "version": "1.0.0",
+  "description": "The design of framework to automate pwa application on chromebook",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "HCL America Inc.",
+  "license": "ISC"
+}
