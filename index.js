@@ -11,4 +11,4 @@ browser.then(async $browser => {
     page.then($page => {
         runLightHouse($browser, url);
     }).catch(err => console.log(err));
-})
+}).catch(err => console.log(err));

@@ -13,7 +13,7 @@ async function openBrowser(browser){
 
 //Open page
 async function openPage(url, page, browser){
-    page = await browser.newpage();
+    page = await browser.newPage();
     await page.goto(url);
     return page;
 }

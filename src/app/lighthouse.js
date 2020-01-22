@@ -13,3 +13,7 @@ async function runLightHouse(browser, url){
 
     console.log("Lighthouse Audit completed");
 }
+
+module.exports = {
+    runLightHouse
+}

@@ -7,5 +7,17 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "HCL America Inc.",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kishore180994/PWA-Framework.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kishore180994/PWA-Framework/issues"
+  },
+  "homepage": "https://github.com/Kishore180994/PWA-Framework#readme",
+  "dependencies": {
+    "lighthouse": "^5.6.0",
+    "puppeteer": "^2.0.0"
+  }
 }
