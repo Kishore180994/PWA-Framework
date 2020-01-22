@@ -1,14 +1,17 @@
-const {openBrowser, openPage, closeBrowser} = require("./api/puppeteer");
-const { runLightHouse } = require("./src/app/lighthouse");
+const { openBrowser, openPage, closeBrowser } = require("./api/puppeteer");
+const { runLighthouse } = require("./src/app/lighthouse");
 
+console.log("=======***=======");
+console.log("Starting lighthouse automation using puppeteer");
+console.log("=======***=======");
 let browser = null;
 let page = null;
-let url = "https://mobile.twitter.com";
+// opening a browser
+console.log("Opening a browser");
 browser = openBrowser(browser);
-
+let url = "https://mobile.twitter.com";
 browser.then(async $browser => {
-    page = openPage(url, page, $browser);
-    page.then($page => {
-        runLightHouse($browser, url);
-    }).catch(err => console.log(err));
-}).catch(err => console.log(err));
+  console.log("Opening a web page");
+  // Opening a page
+  runLighthouse($browser, url);
+});
