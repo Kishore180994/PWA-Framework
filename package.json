@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/Kishore180994/PWA-Framework#readme",
   "dependencies": {
-    "lighthouse": "^5.6.0",
+    "lighthouse": "^9.6.8",
     "puppeteer": "^2.0.0"
   }
 }
